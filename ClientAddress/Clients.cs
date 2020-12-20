@@ -11,7 +11,7 @@ namespace TransactionService.ClientAddress
         public HttpClient AccountDetails()
         {
             var client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:44338");
+            client.BaseAddress = new Uri("http://20.62.136.183/");
             //https: //localhost:44338
             return client;
         }
@@ -20,7 +20,7 @@ namespace TransactionService.ClientAddress
         {
             var client = new HttpClient();
             //https: //localhost:44384
-            client.BaseAddress = new Uri("https://localhost:44384");
+            client.BaseAddress = new Uri("http://20.62.158.62/");
             return client;
         }
     }
